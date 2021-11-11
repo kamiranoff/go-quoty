@@ -1,0 +1,713 @@
+[
+  {
+    "id": 1,
+    "author": "Homer",
+    "book": "The Odyssey",
+    "categories": [
+      "mythology"
+    ],
+    "quote": "…There is the heat of Love, the pulsing rush of Longing, the lover’s whisper, irresistible—magic to make the sanest man go mad."
+  },
+  {
+    "id": 2,
+    "author": "Homer",
+    "book": "The Odyssey",
+    "categories": [
+      "mythology"
+    ],
+    "quote": "Of all creatures that breathe and move upon the earth, nothing is bred that is weaker than man."
+  },
+  {
+    "id": 3,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "Of all creatures that can feel and think, we women are the worst treated things alive",
+    "author": "Euripides",
+    "book": "Medea"
+  },
+  {
+    "id": 4,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "There is the heat of Love, the pulsing rush of Longing, the lover’s whisper, irresistible – magic to make the sanest man go mad.",
+    "author": "Homer",
+    "book": "The Iliad"
+  },
+  {
+    "id": 5,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "Scepticism is as much the result of knowledge, as knowledge is of scepticism.",
+    "author": "Homer",
+    "book": "The Odyssey"
+  },
+  {
+    "id": 6,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "For a friend with an understanding heart is worth no less than a brother",
+    "author": "Homer",
+    "book": "The Odyssey"
+  },
+  {
+    "id": 7,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "Any moment might be our last. Everything is more beautiful because we’re doomed. You will never be lovelier than you are now. We will never be here again.",
+    "author": "Homer",
+    "book": "The Iliad"
+  },
+  {
+    "id": 8,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "Oblivion – what a blessing for the mind to dwell a world away from pain.",
+    "author": "Sophocles",
+    "book": "Oedipus Rex"
+  },
+  {
+    "id": 9,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "Hateful to me as the gates of Hades is that man who hides one thing in his heart and speaks another.",
+    "author": "Homer",
+    "book": "The Iliad"
+  },
+  {
+    "id": 10,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "If you try to cure evil with evil you will add more pain to your fate.",
+    "author": "Sophocles",
+    "book": "Ajax"
+  },
+  {
+    "id": 11,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "I have no desire to suffer twice, in reality and then in retrospect.",
+    "author": "Sophocles",
+    "book": "Oedipus Rex"
+  },
+  {
+    "id": 12,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "There is no greater fame for a man than that which he wins with his footwork or the skill of his hands.",
+    "author": "Homer",
+    "book": "The Odyssey"
+  },
+  {
+    "id": 13,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "Fear? What has a man to do with fear? Chance rules our lives, and the future is all unknown. Best live as we may, from day to day.",
+    "author": "Sophocles",
+    "book": "Oedipus Rex"
+  },
+  {
+    "id": 14,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "Men are so quick to blame the gods: they say that we devise their misery. But they themselves–in their depravity–design grief greater than griefs that fate assigns.",
+    "author": "Homer",
+    "book": "The Odyssey"
+  },
+  {
+    "id": 15,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "God himself helps those who dare.",
+    "author": "Ovid",
+    "book": "Metamorphoses"
+  },
+  {
+    "id": 16,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "All men make mistakes, but a good man yields when he knows his course is wrong, and repairs the evil. The only crime is pride.",
+    "author": "Sophocles",
+    "book": "Antigone"
+  },
+  {
+    "id": 17,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "Let me not then die ingloriously and without a struggle, but let me first do some great thing that shall be told among men hereafter.",
+    "author": "Homer",
+    "book": "The Iliad"
+  },
+  {
+    "id": 18,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "I have pondered on the causes of a life’s shipwreck. I think that our lives are worse than the mind’s quality would warrant. There are many who know virtue. We know the good, we apprehend it clearly. But we can’t bring it to achievement.",
+    "author": "Euripides",
+    "book": "Hippolytus"
+  },
+  {
+    "id": 19,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "But he who neither thinks for himself nor learns from others, is a failure as a man.",
+    "author": "Hesiod",
+    "book": "Works and Days and Theogony"
+  },
+  {
+    "id": 20,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "Like the generations of leaves, the lives of mortal men. Now the wind scatters the old leaves across the earth, now the living timber bursts with the new buds and spring comes round again. And so with men: as one generation comes to life, another dies away.",
+    "author": "Homer",
+    "book": "The Iliad"
+  },
+  {
+    "id": 21,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "To throw away an honest friend is, as it were, to throw your life away.",
+    "author": "Sophocles",
+    "book": "Oedipus Rex"
+  },
+  {
+    "id": 22,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "Go then if you must, but remember, no matter how foolish your deeds, those who love you will love you still.",
+    "author": "Sophocles",
+    "book": "Antigone"
+  },
+  {
+    "id": 23,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "Empty words are evil.",
+    "author": "Homer",
+    "book": "The Odyssey"
+  },
+  {
+    "id": 24,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "Cleverness is not wisdom.",
+    "author": "Euripides",
+    "book": "The Bacchae"
+  },
+  {
+    "id": 25,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "Fortune resists half-hearted prayers.",
+    "author": "Ovid",
+    "book": "Metamorphoses"
+  },
+  {
+    "id": 26,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "Of all men’s miseries the bitterest is this: to know so much and to have control over nothing.",
+    "author": "Herodotus",
+    "book": "The Histories"
+  },
+  {
+    "id": 27,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "We men are wretched things.",
+    "author": "Homer",
+    "book": "The Iliad"
+  },
+  {
+    "id": 28,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "The truth is what I cherish and that’s my strength",
+    "author": "Sophocles",
+    "book": "Oedipus Rex"
+  },
+  {
+    "id": 29,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "Why so much grief for me? No man will hurl me down to Death, against my fate. And fate? No one alive has ever escaped it, neither brave man nor coward, I tell you – it’s born with us the day that we are born.",
+    "author": "Homer",
+    "book": "The Iliad"
+  },
+  {
+    "id": 30,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "Not too little, not too much: there safety lies.",
+    "author": "Euripides",
+    "book": "Medea"
+  },
+  {
+    "id": 31,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "No man or woman born, coward or brave, can shun his destiny.",
+    "author": "Homer",
+    "book": "The Iliad"
+  },
+  {
+    "id": 32,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "Time, as it grows old, teaches all things.",
+    "author": "Aeschylus",
+    "book": "Prometheus Bound"
+  },
+  {
+    "id": 33,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "Out of sight, out of mind.",
+    "author": "Homer",
+    "book": "The Odyssey"
+  },
+  {
+    "id": 34,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "Isn’t it delightful to forget how old we are?",
+    "author": "Euripides",
+    "book": "The Bacchae"
+  },
+  {
+    "id": 35,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "The sort of words a man says is the sort he hears in return.",
+    "author": "Homer",
+    "book": "The Iliad"
+  },
+  {
+    "id": 36,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "I take my cue from deeds, not words.",
+    "author": "Aeschylus",
+    "book": "Prometheus Bound"
+  },
+  {
+    "id": 37,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "Never honor the gods in one breath and take the gods for fools the next.",
+    "author": "Sophocles",
+    "book": "Oedipus Rex"
+  },
+  {
+    "id": 38,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "There is no happiness where there is no wisdom.",
+    "author": "Sophocles",
+    "book": "Antigone"
+  },
+  {
+    "id": 39,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "The proud heart feels not terror nor turns to run and it is his own courage that kills him",
+    "author": "Homer",
+    "book": "The Iliad"
+  },
+  {
+    "id": 40,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "Sing in me, Muse, and through me tell the story\nof that man skilled in all ways of contending,\nthe wanderer, harried for years on end",
+    "author": "Homer",
+    "book": "The Odyssey"
+  },
+  {
+    "id": 41,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "Take courage, my heart: you have been through worse than this. Be strong, saith my heart; I am a soldier; I have seen worse sights than this.",
+    "author": "Homer",
+    "book": "The Odyssey"
+  },
+  {
+    "id": 42,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "There is one thing alone that stands the brunt of life throughout its course; a quiet conscience.",
+    "author": "Euripides",
+    "book": "Hippolytus"
+  },
+  {
+    "id": 43,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "For somehow this is tyranny’s disease, to trust no friends.",
+    "author": "Aeschylus",
+    "book": "Prometheus Bound"
+  },
+  {
+    "id": 44,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "Stronger than lover’s love is lover’s hate. Incurable, in each, the wounds they make.",
+    "author": "Euripides",
+    "book": "Medea"
+  },
+  {
+    "id": 45,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "What are the children of men, but as leaves that drop at the wind’s breath?",
+    "author": "Homer",
+    "book": "The Iliad"
+  },
+  {
+    "id": 46,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "There’s nothing in the world so demoralizing as money.",
+    "author": "Sophocles",
+    "book": "Antigone"
+  },
+  {
+    "id": 47,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "It is a painful thing\nTo look at your own trouble and know\nThat you yourself and no one else has made it\n",
+    "author": "Sophocles",
+    "book": "Ajax"
+  },
+  {
+    "id": 48,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "No one loves the messenger who brings bad news.",
+    "author": "Sophocles",
+    "book": "Antigone"
+  },
+  {
+    "id": 49,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "Of all creatures that breathe and move on earth none is more to be pitied than a man.",
+    "author": "Homer",
+    "book": "The Iliad"
+  },
+  {
+    "id": 50,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "Few sons are like their fathers – most are worse, few better.",
+    "author": "Homer",
+    "book": "The Odyssey"
+  },
+  {
+    "id": 51,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "My love for you was greater than my wisdom.",
+    "author": "Euripides",
+    "book": "Medea"
+  },
+  {
+    "id": 52,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "Time, which sees all things, has found you out.",
+    "author": "Sophocles",
+    "book": "Oedipus Rex"
+  },
+  {
+    "id": 53,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "The creation of genius always seems like a miracle, because they are, for the most part, created far out of the reach of observation.",
+    "author": "Homer",
+    "book": "The Odyssey"
+  },
+  {
+    "id": 54,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "We have only a little time to please the living. But all eternity to love the dead.",
+    "author": "Sophocles",
+    "book": "Antigone"
+  },
+  {
+    "id": 55,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "Of the many things hidden from the knowledge of man, nothing is more unintelligible than the human heart.",
+    "author": "Homer",
+    "book": "The Odyssey"
+  },
+  {
+    "id": 56,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "Talk sense to a fool and he calls you foolish.",
+    "author": "Euripides",
+    "book": "The Bacchae"
+  },
+  {
+    "id": 57,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "By the sword you did your work, and by the sword you die.",
+    "author": "Aeschylus",
+    "book": "Agamemnon"
+  },
+  {
+    "id": 58,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "Hate is a bottomless cup.",
+    "author": "Euripides",
+    "book": "Medea"
+  },
+  {
+    "id": 59,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "Take these things to heart, my son, I warn you.\nAll men make mistakes, it is only human.\nBut once the wrong is done, a man\ncan turn his back on folly, misfortune too,\nif he tries to make amends, however low he’s fallen,\nand stops his bullnecked ways. Stubbornness\nbrands you for stupidity – pride is a crime.",
+    "author": "Sophocles",
+    "book": "Antigone"
+  },
+  {
+    "id": 60,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "For Time calls only once, and that determines all.",
+    "author": "Sophocles",
+    "book": "Electra"
+  },
+  {
+    "id": 61,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "In war, the first casualty is truth.",
+    "author": "Aeschylus",
+    "book": "Agamemnon"
+  },
+  {
+    "id": 62,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "The pain we inflict upon ourselves hurt most of all.",
+    "author": "Sophocles",
+    "book": "Oedipus Rex"
+  },
+  {
+    "id": 63,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "A man, though wise, should never be ashamed of learning more, and must unbend his mind.",
+    "author": "Sophocles",
+    "book": "Antigone"
+  },
+  {
+    "id": 64,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "Wisdom comes through suffering.\nTrouble, with its memories of pain,\nDrips in our hearts as we try to sleep,\nSo men against their will\nLearn to practice moderation.\nFavours come to us from gods.",
+    "author": "Aeschylus",
+    "book": "Agamemnon"
+  },
+  {
+    "id": 65,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "I ask this one thing: let me go mad in my own way.",
+    "author": "Sophocles",
+    "book": "Electra"
+  },
+  {
+    "id": 66,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "Be patient and tough; one day this pain will be useful to you.",
+    "author": "Ovid",
+    "book": "Metamorphoses"
+  },
+  {
+    "id": 67,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "No mortal ever knows happiness and good fortune all the way to the end. Each one is born with his bitterness waiting for him.",
+    "author": "Euripides",
+    "book": "Iphigenia in Aulis"
+  },
+  {
+    "id": 68,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "Love cannot live where there is no trust.",
+    "author": "Edith Hamilton",
+    "book": "Mythology"
+  },
+  {
+    "id": 69,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "Name one hero who was happy.",
+    "author": "Madeline Miller",
+    "book": "The Song of Achilles"
+  },
+  {
+    "id": 70,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "The power of good is shown not by triumphantly conquering evil, but by continuing to resist evil while facing certain defeat.",
+    "author": "Edith Hamilton",
+    "book": "Mythology"
+  },
+  {
+    "id": 71,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "It was my first lesson. Beneath the smooth, familiar face of things is another that waits to tear the world in two.",
+    "author": "Madeline Miller",
+    "book": "Circe"
+  },
+  {
+    "id": 72,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "None so good that he has no faults, none so wicked that he is worth naught.",
+    "author": "Edith Hamilton",
+    "book": "Mythology"
+  },
+  {
+    "id": 73,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "Tell one your thoughts, but beware of two. All know what is known to three.",
+    "author": "Edith Hamilton",
+    "book": "Mythology"
+  },
+  {
+    "id": 74,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "Some things can be recovered. Some things can be restored. But some lost things, we seek forever.",
+    "author": "Margaret George",
+    "book": "Helen of Troy"
+  },
+  {
+    "id": 75,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "I am made of memories.",
+    "author": "Madeline Miller",
+    "book": "The Song of Achilles"
+  },
+  {
+    "id": 76,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "We hold there is no worse enemy to a state than he who keeps the law in his own hands.",
+    "author": "Edith Hamilton",
+    "book": "Mythology"
+  },
+  {
+    "id": 77,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "Humbling women seems to me a chief pastime of poets. As if there can be no story unless we crawl and weep.",
+    "author": "Madeline Miller",
+    "book": "Circe"
+  },
+  {
+    "id": 78,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "Grief teaches the steadiest minds to waver.",
+    "author": "Sophocles",
+    "book": "Antigone"
+  },
+  {
+    "id": 79,
+    "categories": [
+      "mythology"
+    ],
+    "quote": "One good thing, however, was there – Hope. It was the only good thing the casket had held among the many evils, and it remains to this day mankind’s sole comfort in misfortune.",
+    "author": "Edith Hamilton",
+    "book": "Mythology"
+  }
+]

@@ -1,4 +1,4 @@
-package main
+package quoty
 
 import (
 	"context"
@@ -8,47 +8,26 @@ import (
 	"github.com/slack-go/slack"
 	"github.com/slack-go/slack/slackevents"
 	"github.com/slack-go/slack/socketmode"
+	"go-quoty/pkg/quotes"
 	"log"
 	"os"
-	"strings"
 )
+
+func buildMessage() slack.MsgOption {
+	quote := quotes.GetRandomQuote()
+	category := quote.Categories[0]
+
+	return BuildQuote(category, quote.Quote, quote.Author, quote.Book)
+}
 
 // handleAppMentionEvent is used to take care of the AppMentionEvent when the bot is mentioned
 func handleAppMentionEvent(event *slackevents.AppMentionEvent, client *slack.Client) error {
 
-	// Grab the user name based on the ID of the one who mentioned the bot
-	user, err := client.GetUserInfo(event.User)
-	if err != nil {
-		return err
-	}
-	// Check if the user said Hello to the bot
-	text := strings.ToLower(event.Text)
+	msg := buildMessage()
 
-	// Create the attachment and assigned based on the message
-	attachment := slack.Attachment{}
-	// Add Some default context like user who mentioned the bot
-	attachment.Fields = []slack.AttachmentField{
-		{
-			Title: fmt.Sprintf("Homer, The Odyssey"),
-		},
-	}
-
-	//“Of all creatures that breathe and move upon the earth, nothing is bred that is weaker than man.”
-	//― Homer, The Odyssey
-	if strings.Contains(text, "hello") {
-		// Greet the user
-		attachment.Pretext = fmt.Sprintf("Hello %s", user.RealName)
-		attachment.Text = fmt.Sprintf("Of all creatures that breathe and move upon the earth, nothing is bred that is weaker than man.")
-		attachment.Color = "#789"
-	} else {
-		// Send a message to the user
-		attachment.Pretext = fmt.Sprintf("Hello %s", user.RealName)
-		attachment.Text = fmt.Sprintf("…There is the heat of Love, the pulsing rush of Longing, the lover’s whisper, irresistible—magic to make the sanest man go mad.")
-		attachment.Color = "#345"
-	}
-	// Send the message to the channel
 	// The Channel is available in the event message
-	_, _, err = client.PostMessage(event.Channel, slack.MsgOptionAttachments(attachment))
+	_, _,_, err := client.SendMessage(event.Channel, msg)
+
 	if err != nil {
 		return fmt.Errorf("failed to post message: %w", err)
 	}
@@ -77,7 +56,7 @@ func handleEventMessage(event slackevents.EventsAPIEvent, client *slack.Client) 
 	return nil
 }
 
-func main() {
+func StartQuoty() {
 
 	// Load Env variables from .dot file
 	godotenv.Load(".env")
