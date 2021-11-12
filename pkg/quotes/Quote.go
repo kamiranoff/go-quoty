@@ -8,11 +8,18 @@ import (
 	"path/filepath"
 )
 
+type Category string
+
+const (
+	Mythology Category = "mythology"
+	Education        = "education"
+)
+
 type Quote struct {
 	Id    int    `json:"id"`
 	Author string `json:"author"`
-	Book   string `json:"book"`
-	Categories []string `json:"categories"`
+	Book   *string `json:"book"`
+	Categories []Category `json:"categories"`
 	Quote string `json:"quote"`
 }
 

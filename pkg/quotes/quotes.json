@@ -709,5 +709,302 @@
     "quote": "One good thing, however, was there – Hope. It was the only good thing the casket had held among the many evils, and it remains to this day mankind’s sole comfort in misfortune.",
     "author": "Edith Hamilton",
     "book": "Mythology"
+  },
+  {
+    "quote": "The man who does not read books has no advantage over the one who cannot read them.",
+    "author": "Mark Twain",
+    "id": 80,
+    "categories": [
+      "education"
+    ],
+    "book": null
+  },
+  {
+    "quote": "Education is the passport to the future, for tomorrow belongs to those who prepare for it today.",
+    "author": "Malcolm X",
+    "id": 81,
+    "categories": [
+      "education"
+    ],
+    "book": null
+  },
+  {
+    "quote": "Teachers can open the door, but you must enter it yourself.",
+    "author": "Chinese proverb",
+    "id": 82,
+    "categories": [
+      "education"
+    ],
+    "book": null
+  },
+  {
+    "quote": "The beautiful thing about learning is that no one can take it away from you.",
+    "author": "B.B. King",
+    "id": 83,
+    "categories": [
+      "education"
+    ],
+    "book": null
+  },
+  {
+    "quote": "Education is the most powerful weapon you can use to change the world.",
+    "author": "B.B. King",
+    "id": 84,
+    "categories": [
+      "education"
+    ],
+    "book": null
+  },
+  {
+    "quote": "The mind is not a vessel to be filled but a fire to be ignited.",
+    "author": "Plutarch",
+    "id": 85,
+    "categories": [
+      "education"
+    ],
+    "book": null
+  },
+  {
+    "quote": "Don’t let what you cannot do interfere with what you can do.",
+    "author": "John Wooden",
+    "id": 86,
+    "categories": [
+      "education"
+    ],
+    "book": null
+  },
+  {
+    "quote": "A person who never made a mistake never tried anything new.",
+    "author": "Albert Einstein",
+    "id": 87,
+    "categories": [
+      "education"
+    ],
+    "book": null
+  },
+  {
+    "quote": "Learning is never done without errors and defeat.",
+    "author": "Vladimir Lenin",
+    "id": 88,
+    "categories": [
+      "education"
+    ],
+    "book": null
+  },
+  {
+    "quote": "Never let the fear of striking out stop you from playing the game.",
+    "author": "Babe Ruth",
+    "id": 89,
+    "categories": [
+      "education"
+    ],
+    "book": null
+  },
+  {
+    "quote": "You don’t have to be great to start, but you have to start to be great.",
+    "author": "Zig Ziglar",
+    "id": 90,
+    "categories": [
+      "education"
+    ],
+    "book": null
+  },
+  {
+    "quote": "Procrastination makes easy things hard and hard things harder.",
+    "author": "Mason Cooley",
+    "id": 91,
+    "categories": [
+      "education"
+    ],
+    "book": null
+  },
+  {
+    "quote": "The expert in anything was once a beginner.",
+    "author": "Helen Hayes",
+    "id": 92,
+    "categories": [
+      "education"
+    ],
+    "book": null
+  },
+  {
+    "quote": "The way to get started is to quit talking and begin doing.",
+    "author": "Walt Disney",
+    "id": 93,
+    "categories": [
+      "education"
+    ],
+    "book": null
+  },
+  {
+    "quote": "There are no shortcuts to any place worth going.",
+    "author": "Beverly Stills",
+    "id": 94,
+    "categories": [
+      "education"
+    ],
+    "book": null
+  },
+  {
+    "quote": "I think it’s possible to ordinary people to choose to be extraordinary.",
+    "author": "Elon Musk",
+    "id": 95,
+    "categories": [
+      "education"
+    ],
+    "book": null
+  },
+  {
+    "quote": "I find that the harder I work, the more luck I seem to have.",
+    "author": "Thomas Jefferson",
+    "id": 96,
+    "categories": [
+      "education"
+    ],
+    "book": null
+  },
+  {
+    "quote": "Genius is 970% inspiration, 90% perspiration.",
+    "author": "Thomas Edison",
+    "id": 98,
+    "categories": [
+      "education"
+    ],
+    "book": null
+  },
+  {
+    "quote": "Motivation is what gets you started. Habit is what keeps you going.",
+    "author": "Jim Ryun",
+    "id": 99,
+    "categories": [
+      "education"
+    ],
+    "book": null
+  },
+  {
+    "quote": "Success is the sum of small efforts, repeated.",
+    "author": "R. Collier",
+    "id": 100,
+    "categories": [
+      "education"
+    ],
+    "book": null
+  },
+  {
+    "quote": "The best way to predict your future is to create it.",
+    "author": "Abraham Lincoln",
+    "id": 101,
+    "categories": [
+      "education"
+    ],
+    "book": null
+  },
+  {
+    "quote": "The future belongs to those who believe in the beauty of their dreams.",
+    "author": "Eleanor Roosevelt",
+    "id": 102,
+    "categories": [
+      "education"
+    ],
+    "book": null
+  },
+  {
+    "quote": "You are braver than you believe, stronger than you seem and smarter than you think.",
+    "author": "A.A Milne",
+    "id": 103,
+    "categories": [
+      "education"
+    ],
+    "book": null
+  },
+  {
+    "quote": "Learn from yesterday. Live for today. Hope for tomorrow.",
+    "author": "Albert Einstein",
+    "id": 104,
+    "categories": [
+      "education"
+    ],
+    "book": null
+  },
+  {
+    "quote": "The more that you read, the more things you will know, the more that you learn, the more places you’ll go.",
+    "author": "Dr. Seuss",
+    "id": 105,
+    "categories": [
+      "education"
+    ],
+    "book": null
+  },
+  {
+    "quote": "Today a reader. Tomorrow a leader.",
+    "author": "Anonymous",
+    "id": 106,
+    "categories": [
+      "education"
+    ],
+    "book": null
+  },
+  {
+    "quote": "In a world where you can be anything, be kind.",
+    "author": "Jennifer Dukes Lee",
+    "id": 107,
+    "categories": [
+      "education"
+    ],
+    "book": null
+  },
+  {
+    "quote": "He who asks a question is a fool for five minutes; he who does not ask a question remains a fool forever.",
+    "author": "Chinese Proverb",
+    "id": 108,
+    "categories": [
+      "education"
+    ],
+    "book": null
+  },
+  {
+    "quote": "You have to be odd to be no.109.",
+    "author": "Dr. Seuss",
+    "id": 110,
+    "categories": [
+      "education"
+    ],
+    "book": null
+  },
+  {
+    "quote": "Life is like riding a bicycle. To keep your balance you must keep moving.",
+    "author": "Albert Einstein",
+    "id": 111,
+    "categories": [
+      "education"
+    ],
+    "book": null
+  },
+  {
+    "quote": "I have no special talent. I am only passionately curious.",
+    "author": "Albert Einstein",
+    "id": 112,
+    "categories": [
+      "education"
+    ],
+    "book": null
+  },
+  {
+    "quote": "It's not that I'm so smart, it's just that I stay with problems longer.",
+    "author": "Albert Einstein",
+    "id": 113,
+    "categories": [
+      "education"
+    ],
+    "book": null
+  },
+  {
+    "quote": "Once you stop learning, you start dying.",
+    "author": "Albert Einstein",
+    "id": 114,
+    "categories": [
+      "education"
+    ],
+    "book": null
   }
 ]
