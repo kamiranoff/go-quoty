@@ -29,7 +29,17 @@ import (
 //				"type": "mrkdwn",
 //				"text": "*Benjamin Franklin*, _The Illiad_"
 //			}
-//		}
+//		},
+//		{
+//					"type": "button",
+//					"text": {
+//						"type": "plain_text",
+//						"text": "Ler Ros",
+//						"emoji": true
+//					},
+//					"value": "click_me_123",
+//					"url": "https://google.com"
+//				}
 //	]
 //}
 
@@ -72,7 +82,40 @@ func buildSeparatorSection() *slack.SectionBlock {
 	return slack.NewSectionBlock(separatorBlock, nil, nil)
 }
 
+func buildButtonSection() *slack.ActionBlock {
+	actionId := "press_one_more"
+	actionCancelId := "press_no_more"
+	buttonId := "one_more"
+	buttonText := "One more?"
+	buttonTextBlock := slack.NewTextBlockObject(slack.PlainTextType, buttonText, false, false)
+
+	buttonCancelId := "no_more"
+	buttonCancelText := "No, thanks"
+	buttonCancelTextBlock := slack.NewTextBlockObject(slack.PlainTextType, buttonCancelText, false, false)
+
+	buttonBlockElement := slack.NewButtonBlockElement(actionId, buttonId, buttonTextBlock)
+	buttonCancelBlockElement := slack.NewButtonBlockElement(actionCancelId, buttonCancelId, buttonCancelTextBlock)
+
+
+	action := slack.NewActionBlock(buttonId, buttonBlockElement, buttonCancelBlockElement)
+
+	return action
+}
+
 func BuildQuote(category quotes.Category, quote string, author string, book *string) slack.MsgOption {
+	return slack.MsgOptionBlocks(
+		buildSeparatorSection(),
+		buildHeaderSection(category),
+		buildSeparatorSection(),
+		buildQuoteSection(quote),
+		buildSeparatorSection(),
+		buildFooterSection(author, book),
+		buildSeparatorSection(),
+		buildButtonSection(),
+	)
+}
+
+func BuildQuoteWithoutButton(category quotes.Category, quote string, author string, book *string) slack.MsgOption {
 	return slack.MsgOptionBlocks(
 		buildSeparatorSection(),
 		buildHeaderSection(category),
