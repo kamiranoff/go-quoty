@@ -56,7 +56,7 @@ func buildCategoryMessage(categories []quotes.Category) string {
 	case quotes.Education:
 		return ":mortar_board:  " + strings.Title(string(category)) + "  :books:"
 	default:
-		return ":star:  General  :star:"
+		return ":books:  General  :book:"
 	}
 }
 
