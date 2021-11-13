@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"github.com/slack-go/slack"
 	"go-quoty/pkg/quotes"
+	"strings"
 )
 
 //  Template
@@ -20,7 +21,7 @@ import (
 //			"type": "section",
 //			"text": {
 //				"type": "mrkdwn",
-//				"text": "> Great to see you here! App helps you to stay up-to-date with your meetings and events right here within Slack. These are just a few things which you will be able to do"
+//				"text": "> Great"
 //			}
 //		},
 //		{
@@ -43,20 +44,24 @@ import (
 //	]
 //}
 
+func buildCategoryMessage(categories []quotes.Category) string {
+	var category quotes.Category
+	if len(categories) > 0 {
+        category = categories[0]
+    }
 
-func buildCategoryMessage(category quotes.Category) string {
 	switch category {
 	case quotes.Mythology:
-        return ":zap:  " + string(category) + "  :trident:"
+		return ":zap:  " + strings.Title(string(category)) + "  :trident:"
 	case quotes.Education:
-		return ":mortar_board:  " + string(category) + "  :books:"
+		return ":mortar_board:  " + strings.Title(string(category)) + "  :books:"
 	default:
 		return ":star:  General  :star:"
-    }
+	}
 }
 
-func buildHeaderSection(category quotes.Category) *slack.SectionBlock {
-	categoryMsg := buildCategoryMessage(category)
+func buildHeaderSection(categories []quotes.Category) *slack.SectionBlock {
+	categoryMsg := buildCategoryMessage(categories)
 	headerBlock := slack.NewTextBlockObject(slack.MarkdownType, categoryMsg, false, false)
 	return slack.NewSectionBlock(headerBlock, nil, nil)
 }
@@ -67,7 +72,11 @@ func buildQuoteSection(quote string) *slack.SectionBlock {
 }
 
 func buildFooterSection(author string, book *string) *slack.SectionBlock {
-	authorMsg := fmt.Sprintf("*%s*", author)
+	authorText := "Unknown author"
+	if author != "" {
+		authorText = author
+	}
+	authorMsg := fmt.Sprintf("*%s*", authorText)
 
 	if book != nil {
 		authorMsg = authorMsg + fmt.Sprintf(", _%s_", *book)
@@ -82,47 +91,52 @@ func buildSeparatorSection() *slack.SectionBlock {
 	return slack.NewSectionBlock(separatorBlock, nil, nil)
 }
 
-func buildButtonSection() *slack.ActionBlock {
+func buildButtonSection(id string) *slack.ActionBlock {
 	actionId := "press_one_more"
 	actionCancelId := "press_no_more"
 	buttonId := "one_more"
 	buttonText := "One more?"
 	buttonTextBlock := slack.NewTextBlockObject(slack.PlainTextType, buttonText, false, false)
 
-	buttonCancelId := "no_more"
+	buttonCancelId := id
 	buttonCancelText := "No, thanks"
 	buttonCancelTextBlock := slack.NewTextBlockObject(slack.PlainTextType, buttonCancelText, false, false)
 
 	buttonBlockElement := slack.NewButtonBlockElement(actionId, buttonId, buttonTextBlock)
 	buttonCancelBlockElement := slack.NewButtonBlockElement(actionCancelId, buttonCancelId, buttonCancelTextBlock)
 
-
 	action := slack.NewActionBlock(buttonId, buttonBlockElement, buttonCancelBlockElement)
 
 	return action
 }
 
-func BuildQuote(category quotes.Category, quote string, author string, book *string) slack.MsgOption {
-	return slack.MsgOptionBlocks(
-		buildSeparatorSection(),
-		buildHeaderSection(category),
-		buildSeparatorSection(),
-		buildQuoteSection(quote),
-		buildSeparatorSection(),
-		buildFooterSection(author, book),
-		buildSeparatorSection(),
-		buildButtonSection(),
-	)
-}
+func BuildQuote(withButton bool, quoteId *string) slack.MsgOption {
+	var quote quotes.Quote
+	if quoteId != nil {
+		quote = quotes.GetQuoteById(*quoteId)
+    } else {
+        quote = quotes.GetRandomQuote()
+	}
 
-func BuildQuoteWithoutButton(category quotes.Category, quote string, author string, book *string) slack.MsgOption {
+	if withButton == true {
+		return slack.MsgOptionBlocks(
+			buildSeparatorSection(),
+			buildHeaderSection(quote.Categories),
+			buildSeparatorSection(),
+			buildQuoteSection(quote.Quote),
+			buildSeparatorSection(),
+			buildFooterSection(quote.Author, quote.Book),
+			buildSeparatorSection(),
+			buildButtonSection(quote.Id),
+		)
+	}
 	return slack.MsgOptionBlocks(
 		buildSeparatorSection(),
-		buildHeaderSection(category),
+		buildHeaderSection(quote.Categories),
 		buildSeparatorSection(),
-		buildQuoteSection(quote),
+		buildQuoteSection(quote.Quote),
 		buildSeparatorSection(),
-		buildFooterSection(author, book),
+		buildFooterSection(quote.Author, quote.Book),
 		buildSeparatorSection(),
 	)
 }

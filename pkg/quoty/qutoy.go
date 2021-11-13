@@ -8,25 +8,14 @@ import (
 	"github.com/slack-go/slack"
 	"github.com/slack-go/slack/slackevents"
 	"github.com/slack-go/slack/socketmode"
-	"go-quoty/pkg/quotes"
 	"log"
 	"os"
 )
 
-func buildMessage(withButtons bool) slack.MsgOption {
-	quote := quotes.GetRandomQuote()
-	category := quote.Categories[0]
-
-	if withButtons {
-		return BuildQuote(category, quote.Quote, quote.Author, quote.Book)
-	}
-	return BuildQuoteWithoutButton(category, quote.Quote, quote.Author, quote.Book)
-}
-
 // handleSendMessage is used to take care of the AppMentionEvent when the bot is mentioned
 func handleSendMessage(channel string, client *slack.Client) error {
 
-	msg := buildMessage(true)
+	msg := BuildQuote(true, nil)
 
 	// The Channel is available in the event message
 	_, _, _, err := client.SendMessage(channel, msg)
@@ -37,9 +26,9 @@ func handleSendMessage(channel string, client *slack.Client) error {
 	return nil
 }
 
-func handleModifyMessage(channel string, msgTimeStamp string, client *slack.Client) error {
+func handleModifyMessage(quoteId *string, channel string, msgTimeStamp string, client *slack.Client) error {
 
-	msg := buildMessage(false)
+	msg := BuildQuote(false, quoteId)
 
 	// The Channel is available in the event message
 	_, _, _, err := client.UpdateMessage(channel, msgTimeStamp, msg)
@@ -160,7 +149,8 @@ func handleInteractiveEvent(event slack.InteractionCallback, client *slack.Clien
 				return errors.New("could not send new message")
 			}
 		case "press_no_more":
-			err := handleModifyMessage(event.Channel.ID, event.Message.Msg.Timestamp, client)
+			quoteId := event.ActionCallback.BlockActions[0].Value
+			err := handleModifyMessage(&quoteId, event.Channel.ID, event.Message.Msg.Timestamp, client)
 			if err != nil {
 				return errors.New("could not send new message")
 			}
